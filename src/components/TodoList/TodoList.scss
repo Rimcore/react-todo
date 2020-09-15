@@ -1,0 +1,25 @@
+.TodoList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.TodoList_header {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.TodoList_header-button {
+  padding: 0px 5px;
+  margin-right: 5px;
+  border: none;
+  background: #369;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+.TodoList_header-button--selected {
+  background: #396;
+}
